@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Rob;
+}
+
+.box-one {
+    background-color: #1F2937; 
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 15%;
+    justify-content: center;
+}
+
+ul { 
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 18px;
+    justify-content: flex-end;
+    gap: 10px;
+    color: #E5E7EB;
+}
+
+.box-one div {
+    width: 40%;
+    padding: 0;
+}
+
+
+
+h1 {
+    font-size: 30px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+h3 {
+    color: #F9FAF8;
+}
+
+.child-four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+}
+
+
+
+.child-one,
+.child-two {
+    height: 20%;
+}
+
+
+.flex-two {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box-two {
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 15%;
+
+}
+
+h2 {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
+
+.flex-two .one.two.three.four {
+    width: 15%;
+    text-align: center;
+    gap: 20px;
+}
+
+.one-b,
+.two-b,
+.three-b,
+.four-b {
+    border: solid blue;
+    height: 100px;
+    width: 80%;
+}
+
+.box-three {
+    padding-left: 15%;
+    padding-top: 15%;
+    padding-right: 15%;
+    padding-bottom: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+}
+
+.box-four {
+     padding-left: 15%;
+    padding-top: 7%;
+    padding-right: 15%;
+    padding-bottom: 7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.box-four div {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: lightskyblue;
+    width: 70%;
+}
+
+.last {
+    background-color: darkblue;
+    text-align: center;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.last p {
+    color: #E5E7EB;
+    
+}
